@@ -1,5 +1,6 @@
 ## Git Training
 
+## 1. Git repo initalisieren
 GitBash starten
 
 ```
@@ -39,3 +40,17 @@ git log
 git log --oneline
 ```
 
+## 2. GIT Branches erstellen
+
+```
+git branch <BRANCHNAME>
+```
+
+```
+git checkout <BRANCHNAME>
+```
+oder
+
+```
+git checkout -b <BRANCHNAME>
+```
