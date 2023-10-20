@@ -9,3 +9,7 @@ def root():
 @app.get("/todos")
 def get_todos():
     return "Get Todo"
+
+@app.put("/todo")
+def put_todos():
+    return "Put Todo"
